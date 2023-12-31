@@ -1,2 +1,2 @@
-summon minecraft:iron_golem 8 -60 8 {Tags:["red_bed"],NoAI:1b,Health:512f,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{RedBed:1b}}],ArmorDropChances:[0f,0f,0f,1f]}
+summon minecraft:iron_golem ~ ~ ~ {Tags:["red_bed"],NoAI:1b,Health:512f,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{RedBed:1b}}],ArmorDropChances:[0f,0f,0f,1f]}
 execute store result bossbar minecraft:1 max run data get entity @e[tag=red_bed,limit=1] Health
