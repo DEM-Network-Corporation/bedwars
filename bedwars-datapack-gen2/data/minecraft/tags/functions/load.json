@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+      "bedwars:on_start/setup_connection/setup_connection",
+      "bedwars:bed/yellow_team/health/bossbar/setup/setup",
+      "bedwars:bed/red_team/health/bossbar/setup/setup",
+      "#bedwars:bossbar_update",
+      "#bedwars:check_death",
+      "bedwars:bed/red_team/health/loop/set_max_health",
+      "bedwars:bed/yellow_team/health/loop/set_max_health"
+    ]
+  }

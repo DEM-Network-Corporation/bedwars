@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Stone tickets???",
+            "bold": true,
+            "color": "gray"
+        },
+        "description": {
+            "text": "Get Stone Tickets",
+            "color": "black",
+            "bold": true,
+            "obfuscated": false,
+            "strikethrough": true,
+            "underlined": true,
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:gunpowder",
+            "nbt": "{CustomModelData:10100}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Stone Tickets": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "Stone Tickets"
+        ]
+    ],
+    "parent": "bedwars:root"
+}

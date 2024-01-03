@@ -1,0 +1,1 @@
+scoreboard objectives add Leave minecraft.custom:minecraft.leave_game {"text":"Leave","color":"red","italic":false,"bold":true}

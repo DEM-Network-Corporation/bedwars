@@ -1,0 +1,1 @@
+execute as @a[nbt={Inventory:[{tag:{ticketV:1}}]}] at @a[nbt={Inventory:[{tag:{ticketV:1}}]}] run advancement grant @s only bedwars:stone_tickets Stone Tickets

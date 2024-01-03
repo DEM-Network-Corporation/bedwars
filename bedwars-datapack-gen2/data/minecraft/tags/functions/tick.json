@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+      "#bedwars:bossbar_update",
+      "#bedwars:check_death",
+      "bedwars:bed/red_team/health/loop/set_max_health",
+      "bedwars:bed/yellow_team/health/loop/set_max_health",
+      "bedwars:connection/connect_detector",
+      "bedwars:adv/give/stone_ticket"
+    ]
+  }

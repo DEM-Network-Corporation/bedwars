@@ -1,0 +1,1 @@
+attribute @e[type=minecraft:iron_golem,limit=1,tag=yellow_bed] minecraft:generic.max_health base set 512
