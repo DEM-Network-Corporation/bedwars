@@ -1,0 +1,1 @@
+scoreboard players add sgfp sgct 1

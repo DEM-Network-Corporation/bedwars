@@ -1,0 +1,2 @@
+execute as @e[tag=stone_gen] at @e[tag=stone_gen] run data merge entity @s {Invisible:1b,Invulnerable:1b,NoGravity:1b}
+execute as @e[tag=stone_gen,nbt=!{ArmorItems:[{tag:{genT:1}}]}] at @e[tag=stone_gen,nbt=!{ArmorItems:[{tag:{genT:1}}]}] run item replace entity @s armor.head with minecraft:stone{HideFlags:1b,Enchantments:[{id:protection,lvl:0}],genT:1,display:{Name:'{"text":"Stone Ticket Generator Block","color":"gray","italic":false,"bold":true}'}}

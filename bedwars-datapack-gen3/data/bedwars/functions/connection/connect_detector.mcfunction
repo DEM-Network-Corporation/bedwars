@@ -1,0 +1,1 @@
+execute as @a unless score @s Leave matches 1 run function bedwars:connection/connected

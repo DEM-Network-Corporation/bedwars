@@ -1,0 +1,41 @@
+{
+    "display": {
+        "background": "bedwars:textures/gui/advancements/main.png",
+        "title": {
+            "text": "Bedwars",
+            "bold": false,
+            "color": "gold"
+        },
+        "description": {
+            "text": "The Main Acheivement",
+            "color": "yellow",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:red_bed"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "none": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "none"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "bedwars:starter_pick",
+            "bedwars:normal_pick",
+            "bedwars:smart_pick",
+            "bedwars:overpowered_pick"
+        ],
+        "experience": 10
+    }
+}

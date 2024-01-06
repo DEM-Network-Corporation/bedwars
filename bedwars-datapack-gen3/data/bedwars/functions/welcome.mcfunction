@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Welcome!","color":"gold"},{"text":" You're In A Server That Uses "},{"text":"ArthurArakaki's Bedwars Datapack","color":"green","clickEvent":{"action":"open_url","value":"https://github.com/DEM-Network-Corporation/bedwars"}}]

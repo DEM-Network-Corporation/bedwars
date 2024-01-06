@@ -1,0 +1,1 @@
+execute at @e[tag=stone_gen] run summon item ~ ~1.325 ~ {Item:{id:gunpowder, Count:1b,tag:{CustomModelData:10100,display:{Name:'{"text":"Stone Ticket","color":"gray","italic":false}'}}},Tags:["generatedI"]}
