@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+      "bedwars:generator/ticket/config/stone_gen/stone_gen_setup/setup",
+      "bedwars:on_start/setup_connection/setup_connection",
+      "bedwars:bed/yellow_team/health/bossbar/setup/setup",
+      "bedwars:bed/red_team/health/bossbar/setup/setup",
+      "bedwars:bed/green_team/health/bossbar/setup/setup",
+      "bedwars:bed/blue_team/health/bossbar/setup/setup",
+      "#bedwars:bossbar_update",
+      "#bedwars:check_death",
+      "bedwars:generator/ticket/stone_gen",
+      "bedwars:generator/ticket/config/stone_gen/timer-define",
+      "bedwars:generator/ticket/config/stone_gen/detect_timer_meet",
+      "bedwars:bed/red_team/health/loop/set_max_health",
+      "bedwars:bed/yellow_team/health/loop/set_max_health"
+    ]
+  }

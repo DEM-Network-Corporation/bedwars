@@ -1,0 +1,2 @@
+summon minecraft:iron_golem ~ ~5 ~ {CustomName:'{"text":"Red Bed","color":"red","italic":false}',CustomNameVisible:1b,Tags:["red_bed"],NoAI:1b,Health:512f,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{RedBed:1b}}],ArmorDropChances:[0f,0f,0f,1f],Attributes:[{Name:generic.max_health,Base:512}]}
+execute store result bossbar minecraft:1 max run data get entity @e[tag=red_bed,limit=1] Health

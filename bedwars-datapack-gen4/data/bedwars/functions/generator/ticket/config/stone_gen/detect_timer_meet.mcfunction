@@ -1,0 +1,1 @@
+execute if score sgfp sgct = sgfp sgt run function bedwars:generator/ticket/config/summon_item/pre-summon

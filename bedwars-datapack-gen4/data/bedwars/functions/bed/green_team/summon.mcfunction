@@ -1,0 +1,2 @@
+summon minecraft:iron_golem ~ ~5 ~ {CustomName:'{"text":"Green Bed","color":"green","italic":false}',CustomNameVisible:1b,Tags:["green_bed"],NoAI:1b,Health:512f,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{GreenBed:1b}}],ArmorDropChances:[0f,0f,0f,1f],Attributes:[{Name:generic.max_health,Base:512}]}
+execute store result bossbar minecraft:3 max run data get entity @e[tag=green_bed,limit=1] Health

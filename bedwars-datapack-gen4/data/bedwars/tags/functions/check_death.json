@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "bedwars:bed/yellow_team/health/loop/check_death",
+      "bedwars:bed/green_team/health/loop/check_death",
+      "bedwars:bed/red_team/health/loop/check_death",
+      "bedwars:bed/blue_team/health/loop/check_death"
+    ]
+  }

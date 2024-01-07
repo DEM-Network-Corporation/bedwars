@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+      "#bedwars:bossbar_update",
+      "#bedwars:check_death",
+      "bedwars:bed/red_team/health/loop/set_max_health",
+      "bedwars:bed/yellow_team/health/loop/set_max_health",
+      "bedwars:connection/connect_detector",      
+      "bedwars:generator/ticket/stone_gen",
+      "bedwars:generator/ticket/config/stone_gen/timer-define",
+      "bedwars:generator/ticket/config/stone_gen/detect_timer_meet",
+      "bedwars:generator/ticket/config/stone_gen/sgct-loop",
+      "bedwars:adv/give/stone_ticket"
+    ]
+  }

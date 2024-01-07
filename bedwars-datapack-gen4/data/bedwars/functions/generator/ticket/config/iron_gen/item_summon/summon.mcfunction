@@ -1,0 +1,1 @@
+execute at @e[tag=iron_gen] run summon item ~ ~1.325 ~ {Item:{id:gunpowder, Count:1b,tag:{CustomModelData:10000,display:{Name:'{"text":"Iron Ticket","color":"white","italic":false}'}}},Tags:["generatedI"]}

@@ -1,0 +1,55 @@
+{
+    "display": {
+        "title": {
+            "text": "Iron Tickets???",
+            "color": "gray",
+            "bold": true,
+            "underlined": true,
+            "obfuscated": true,
+            "strikethrough": false,
+            "italic": true
+        },
+        "description": {
+            "text": "Get iron Tickets",
+            "bold": true,
+            "strikethrough": false,
+            "obfuscated": true,
+            "underlined": true,
+            "italic": true,
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:gunpowder",
+            "nbt": "{CustomModelData:10000}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 2304
+                        },
+                        "item": "minecraft:gunpowder",
+                        "nbt": "{CustomModelData:10000}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hit"
+        ]
+    ],
+    "rewards": {
+        "experience": 60
+    }
+}
