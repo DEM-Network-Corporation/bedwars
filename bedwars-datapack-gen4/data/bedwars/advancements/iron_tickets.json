@@ -19,7 +19,7 @@
             "color": "gold"
         },
         "icon": {
-            "item": "minecraft:gunpowder",
+            "item": "minecraft:iron_nugget",
             "nbt": "{CustomModelData:10000}"
         },
         "frame": "task",

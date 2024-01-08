@@ -8,6 +8,7 @@
       "bedwars:connection/connect_detector",      
       "bedwars:generator/ticket/stone_gen",
       "bedwars:generator/ticket/iron_gen",
+      "bedwars:generator/ticket/gold_gen",
       "bedwars:generator/ticket/config/stone_gen/timer-define",
       "bedwars:generator/ticket/config/stone_gen/detect_timer_meet",
       "bedwars:generator/ticket/config/stone_gen/sgct-loop",

@@ -1,0 +1,2 @@
+execute as @e[tag=gold_gen] at @e[tag=gold_gen] run data merge entity @s {Invisible:1b,Invulnerable:1b,NoGravity:1b}
+execute as @e[tag=gold_gen,nbt=!{ArmorItems:[{tag:{genT:3}}]}] at @e[tag=gold_gen,nbt=!{ArmorItems:[{tag:{genT:3}}]}] run item replace entity @s armor.head with minecraft:gold_block{HideFlags:1b,Enchantments:[{id:protection,lvl:0}],genT:3,display:{Name:'{"text":"Gold Ticket Generator Block","color":"gold","italic":false,"bold":true}'}}

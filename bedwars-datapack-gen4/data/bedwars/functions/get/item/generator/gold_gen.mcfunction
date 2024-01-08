@@ -1,0 +1,1 @@
+give @s minecraft:armor_stand{display:{Name:'{"text":"Gold Ticket Generator","color":"gold","italic":false,"bold":true}'},EntityTag:{Tags:["gold_gen"]}}

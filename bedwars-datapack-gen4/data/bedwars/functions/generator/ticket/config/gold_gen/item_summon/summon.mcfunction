@@ -1,0 +1,1 @@
+execute at @e[tag=gold_gen] run summon item ~ ~1.325 ~ {Item:{id:gold_nugget, Count:1b,tag:{CustomModelData:10200,display:{Name:'{"text":"Gold Ticket","color":"gold","italic":false}'}}},Tags:["generatedI"]}
