@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/gold_nugget"
+  },  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 10200
+      },
+      "model": "bedwars:item/gold_ticket"
+    }
+  ]
+}

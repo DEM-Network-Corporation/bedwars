@@ -1,0 +1,9 @@
+{
+  "menu.disconnect": "\u00A7cLeave The Server",
+  "gui.toTitle":{"text":"Leave The Server","color":"red","italic":false},
+  "multiplayer.disconnect.flying": "You`ve Got Kicked For Flying(Hacking)",
+  "multiplayer.unsecureserver.toast": "You`re In A Server That Uses The Bedwars Datapack by DEM-network-corporation ",
+  "multiplayer.unsecureserver.toast.title": "Welcome",
+  "menu.returnToGame":{"text":"Continue Playing","color":"green","italic":false},  
+  "chat.type.text": "%s: %s"
+}
